@@ -1,6 +1,6 @@
 # Offre-d-emploi
 
-[Link Text](https://offre-d-emploi-maroc.streamlit.app/)
+[Link of the web app](https://offre-d-emploi-maroc.streamlit.app/)
 
 Au cœur de l'application de visualisation d'offres d'emploi Maroc Annonce résident des techniques avancées qui transforment la recherche d'emploi en une expérience fluide et puissante. En utilisant un arsenal de technologies telles que Python, Pandas et Beautiful Soup (bs4), cette application repousse les frontières de l'efficacité en matière d'extraction, de nettoyage et de visualisation des données.
 
