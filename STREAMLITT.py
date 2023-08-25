@@ -154,26 +154,26 @@ st.write("")
 st.write("")
 
 
-#def main():
-    #st.title("Section des commentaires")
+def main():
+    st.title("Section des commentaires")
 
     # Create an empty list to store comments
-    #comments = []
+    comments = []
 
     # Add a text area for users to enter comments
-    #user_comment = st.text_area("Ajoutez votre commentaire:")
+    user_comment = st.text_area("Ajoutez votre commentaire:")
 
-    #if st.button("Soumettre"):
-        #if user_comment:
+    if st.button("Soumettre"):
+        if user_comment:
             # Add the new comment to the comments list
-            #comments.append(user_comment)
-            #st.success("Commentaire soumis avec succès!")
+            comments.append(user_comment)
+            st.success("Commentaire soumis avec succès!")
 
     # Display the existing comments
-    #st.subheader("Commentaires existants:")
-    #for comment in comments:
-        #st.write(f"- {comment}")
+    st.subheader("Commentaires existants:")
+    for comment in comments:
+        st.write(f"- {comment}")
 
-#if __name__ == "__main__":
-   # main()
+if __name__ == "__main__":
+    main()
 
