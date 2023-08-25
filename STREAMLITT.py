@@ -28,15 +28,15 @@ st.subheader("Votre Avenir Professionnel 👔")
 job = pd.read_csv('jobs-Finalyyy.csv')
 
 
-# Display current date and row count...
+# Display current date and row count on the same line
 current_date = "2023/08/24"
 filtered_rows_count = len(job)
-st.markdown(
-    f"📋 Nombre d'emploi: {filtered_rows_count}  |  📅 Dernière mise à jour: {current_date}"
-)
+st.markdown(f'<div style="display: flex; justify-content: space-between;">'
+            f"<div>📋 Nombre d'emploi: {filtered_rows_count}</div>"
+            f'<div>📅 Dernière mise a jour: {current_date}</div>'
+            f'</div>', unsafe_allow_html=True)
 
 st.sidebar.header("⛏️ Filtrage:")
-
 
 # Sidebar filters
 location = st.sidebar.multiselect('location: 🏠', options=sorted(job['location'].unique()))
@@ -148,5 +148,3 @@ st.write("")
 st.markdown("### Introduction:")
 st.write("Bonjour à tous,")
 st.write("Aujourd'hui, je vous présente une nouvelle solution qui va révolutionner la façon dont vous cherchez des opportunités professionnelles au Maroc. cette web application conçue pour vous fournir une analyse complète des offres d'emploi provenant de \"MAROC ANNONCE\". Nous comprenons à quel point il peut être difficile de trouver les opportunités qui correspondent à vos compétences et à vos aspirations. C'est pourquoi nous avons créé cette application pour vous aider à naviguer à travers les différentes offres et vous fournir des informations clés pour prendre des décisions éclairées.❤️‍🔥")
-
-
