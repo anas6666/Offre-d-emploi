@@ -16,7 +16,7 @@ def main():
     
 
     # Add custom menu items as links
-    st.sidebar.markdown("📧 [Obtenir l'aide / Signaler bug](mailto:anaslachhab42@gmail.com)")
+    st.sidebar.markdown("📧 [Obtenir l'aide / Signaler un bug](mailto:anaslachhab42@gmail.com)")
     
 
 if __name__ == "__main__":
