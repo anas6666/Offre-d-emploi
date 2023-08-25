@@ -28,15 +28,15 @@ st.subheader("Votre Avenir Professionnel 👔")
 job = pd.read_csv('jobs-Finalyyy.csv')
 
 
-# Display current date and row count on the same line
+# Display current date and row count...
 current_date = "2023/08/24"
 filtered_rows_count = len(job)
-st.markdown(f'<div style="display: flex; justify-content: space-between;">'
-            f"<div>📋 Nombre d'emploi: {filtered_rows_count}</div>"
-            f'<div>📅 Dernière mise a jour: {current_date}</div>'
-            f'</div>', unsafe_allow_html=True)
+st.markdown(
+    f"📋 Nombre d'emploi: {filtered_rows_count}  |  📅 Dernière mise à jour: {current_date}"
+)
 
 st.sidebar.header("⛏️ Filtrage:")
+
 
 # Sidebar filters
 location = st.sidebar.multiselect('location: 🏠', options=sorted(job['location'].unique()))
