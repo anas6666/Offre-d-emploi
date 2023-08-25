@@ -150,30 +150,3 @@ st.write("Bonjour à tous,")
 st.write("Aujourd'hui, je vous présente une nouvelle solution qui va révolutionner la façon dont vous cherchez des opportunités professionnelles au Maroc. cette web application conçue pour vous fournir une analyse complète des offres d'emploi provenant de \"MAROC ANNONCE\". Nous comprenons à quel point il peut être difficile de trouver les opportunités qui correspondent à vos compétences et à vos aspirations. C'est pourquoi nous avons créé cette application pour vous aider à naviguer à travers les différentes offres et vous fournir des informations clés pour prendre des décisions éclairées.❤️‍🔥")
 
 
-st.write("")
-st.write("")
-
-
-def main():
-    st.title("Section des commentaires")
-
-    # Create an empty list to store comments
-    comments = []
-
-    # Add a text area for users to enter comments
-    user_comment = st.text_area("Ajoutez votre commentaire:")
-
-    if st.button("Soumettre"):
-        if user_comment:
-            # Add the new comment to the comments list
-            comments.append(user_comment)
-            st.success("Commentaire soumis avec succès!")
-
-    # Display the existing comments
-    st.subheader("Commentaires existants:")
-    for comment in comments:
-        st.write(f"- {comment}")
-
-if __name__ == "__main__":
-    main()
-
