@@ -2,6 +2,23 @@
 
 [Link of the web app](https://offre-d-emploi-maroc.streamlit.app/)
 
+
+This web applications turn job searching into a smooth and powerful experience. Using an arsenal of technologies such as Python, Pandas, and Beautiful Soup (bs4), this application pushes the boundaries of efficiency when it comes to extracting, cleaning, and visualizing data.
+
+Python: This application is based on the Python programming language, renowned for its simplicity and versatility. Python is the driving force behind the application, coordinating the different phases of the process, from initial scraping to final visualization.
+
+Beautiful Soup (bs4): To extract data from the Maroc Annonce site, Beautiful Soup comes into play. This powerful Python library analyzes the HTML and XML code of web pages, allowing the application to retrieve specific information from job offers. in a structured way.
+
+Pandas: Once the data is extracted, the Pandas library comes into play to streamline data cleaning and manipulation. Raw data is transformed into organized datasets, ready to be presented in a readable and understandable way.
+
+Streamlit: The magic of interactive visualization is made possible with Streamlit, a Python library designed to quickly create user interfaces for data applications. Streamlit transforms the cleaned data into interactive graphs and user-friendly tables.
+
+Contributions and Ethics: The application welcomes contributions from the community to further enrich its functionality. However, it is crucial to respect the conditions of use of the Maroc Annonce site throughout the scraping process. As an educational app, it highlights the importance of responsible and ethical data collection.
+
+In a nutshell, the job vacancy viewer app draws its power from Python, Beautiful Soup, Pandas, and Streamlit. This combination of technologies allows a simplified and interactive exploration of professional opportunities, while recalling the importance of compliance with rules and ethics in online data collection
+
+________________________________________________________________________________________________________________________________________________________
+
 Au cœur de l'application de visualisation d'offres d'emploi Maroc Annonce résident des techniques avancées qui transforment la recherche d'emploi en une expérience fluide et puissante. En utilisant un arsenal de technologies telles que Python, Pandas et Beautiful Soup (bs4), cette application repousse les frontières de l'efficacité en matière d'extraction, de nettoyage et de visualisation des données.
 
 Python : Cette application repose sur le langage de programmation Python, réputé pour sa simplicité et sa polyvalence. Python est l'élément moteur de l'application, coordonnant les différentes phases du processus, du scraping initial à la visualisation finale.
