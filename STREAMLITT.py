@@ -29,7 +29,7 @@ job = pd.read_csv('jobs-Finalyyy.csv')
 
 
 # Display current date and row count on the same line
-current_date = "2023/09/08"
+current_date = "2023/09/29"
 filtered_rows_count = len(job)
 st.markdown(f'<div style="display: flex; justify-content: space-between;">'
             f"<div>📋 Nombre d'emploi: {filtered_rows_count}</div>"
